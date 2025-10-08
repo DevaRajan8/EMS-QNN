@@ -1,7 +1,3 @@
-# preprocess.py
-"""
-Handles data loading and preprocessing tasks for the Quantum Reservoir Computing model.
-"""
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split

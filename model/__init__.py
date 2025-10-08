@@ -1,5 +1,3 @@
-
-
 from .utils import (
     create_enhanced_reservoir_circuit,
     create_observables,

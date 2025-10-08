@@ -1,8 +1,3 @@
-# model/utils.py
-"""
-Contains utility functions for building and running the Quantum Reservoir Computer.
-This includes circuit creation, observable definition, state generation, and evaluation.
-"""
 import numpy as np
 from tqdm import tqdm
 

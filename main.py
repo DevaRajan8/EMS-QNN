@@ -1,8 +1,3 @@
-# train.py
-"""
-Main script to train and evaluate the Quantum Reservoir Computing model.
-Orchestrates data loading, model construction, training, and evaluation.
-"""
 import time
 import numpy as np
 import matplotlib.pyplot as plt
