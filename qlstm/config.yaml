@@ -1,0 +1,29 @@
+# config.yaml
+# Configuration for the Quantum LSTM Experiment
+
+data:
+  file_path: "./data/Dataset.csv"
+  seq_length: 5
+  data_fraction: 0.25
+  batch_size: 32
+  feature_cols:
+    [
+      "Day_of_the_week",
+      "DHI",
+      "DNI",
+      "GHI",
+      "Wind_speed",
+      "Humidity",
+      "Temperature",
+    ]
+  target_cols: ["PV_production", "Wind_production", "Electric_demand"]
+
+model:
+  input_size: 7
+  hidden_size: 3
+  output_size: 3
+  num_qubits: 3
+
+training:
+  num_epochs: 10
+  learning_rate: 0.01
