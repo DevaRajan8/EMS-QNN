@@ -11,7 +11,7 @@ from qiskit_aer.primitives import Estimator as AerEstimator
 
 # Import refactored modules
 from preprocess import load_and_preprocess_data
-from model.utils import (
+from model import (
     create_enhanced_reservoir_circuit,
     create_observables,
     get_enhanced_reservoir_states,
