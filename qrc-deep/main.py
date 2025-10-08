@@ -14,7 +14,6 @@ from model import (
 )
 
 def train_readout_with_regularization(X_res, y, alpha_range=[0.1, 1.0, 10.0, 100.0]):
-    """Trains a classical Ridge regression model as the readout layer."""
     print("Training the classical readout model...")
     best_alpha = alpha_range[0]
     best_score = -np.inf
@@ -33,8 +32,7 @@ def train_readout_with_regularization(X_res, y, alpha_range=[0.1, 1.0, 10.0, 100
     return final_model
 
 def main():
-    """Main execution function."""
-    # --- Configuration ---
+   
     DATA_FILE_PATH = 'data/Dataset.csv' 
     HIDDEN_SIZE_QUBITS = 8
     SEQ_LENGTH = 20

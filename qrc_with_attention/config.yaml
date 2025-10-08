@@ -1,0 +1,23 @@
+# config.yaml
+# Configuration for the Quantum Attention Reservoir Computing Experiment
+
+data:
+  file_path: "./data/Dataset.csv"
+  seq_length: 30
+  data_fraction: 0.05
+  target_labels: ["PV Production", "Wind Production", "Electric Demand"]
+
+model:
+  num_qubits: 12
+  depth: 8
+  memory_decay: 0.50
+  attention_type: "measurement"
+  temperature: 1.5
+
+training:
+  readout_alphas: [0.1, 1.0, 10.0, 100.0]
+
+visualization:
+  plot_samples: 200
+  attention_bar_samples: 5
+  attention_heatmap_samples: 50
