@@ -1,6 +1,3 @@
-# config.yaml
-# Configuration for the Quantum Attention Reservoir Computing Experiment
-
 data:
   file_path: "./data/Dataset.csv"
   seq_length: 30

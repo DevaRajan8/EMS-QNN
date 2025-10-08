@@ -1,4 +1,4 @@
-# src/qrc_model.py
+
 import numpy as np
 from tqdm import tqdm
 from qiskit import QuantumCircuit
